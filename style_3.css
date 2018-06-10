@@ -1,0 +1,24 @@
+```css
+#box {
+	color:white;
+	background-color:#585858;
+	padding:10px 0 10px 50px;
+}
+.zuo {
+	background-color:#B8B8B8;
+	padding:30px;   
+	float:left;
+}
+.you {
+	background-color:white;
+	height:122px;
+	border:1px solid #B8B8B8;
+}
+
+span {
+	padding-left:10px;
+}
+.pre {
+  white-space: pre;
+}
+```
