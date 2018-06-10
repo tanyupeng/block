@@ -1,0 +1,109 @@
+html如下：
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!--设置编码为utf-8-->
+<meta charset="utf-8">
+<!--编码规则-->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="style_3.css" >
+<title>个人简历</title>
+</head>
+<body>
+<div id="box"><h2>简历</h2>
+</div>
+<div class="zuo">
+<h3>基本信息</h3>
+</div>
+<div class="you">
+<span class="pre">姓名 张三      性别 男     应聘职位 WEB前端工程师</span>
+</div>
+<div class="zuo">
+<h3>联系方式</h3>
+</div>
+<div class="you">
+<span class="pre">手机 123123123123      Email <a href="mailto:2239967254@qq.com">2239967254@qq.com</a>      个人主页 <a href="http://www.w3school.com.cn/">w3c</a></span>
+</div>
+</dl>
+<div class="zuo">
+<h3>能力描述</h3></div>
+<div class="you">
+<span>技术能力
+熟练掌握HTML,css,js</span>
+<br/>
+<span>综合能力
+努力勤奋,良好沟通</span>
+</div>
+<div class="zuo">
+<h3>教育经历</h3>
+</div>
+<div class="you">
+<span>本科
+百度前端技术学院小微学院</span>
+<br/>
+<span>研究生
+百度前端技术学院大斌学院</span>
+</div>
+<div class="zuo">
+<h3>项目经历</h3>
+</div>
+<div class="you">
+<span>小度小度
+作为前端工程角色参与ABC组件的开发</span>
+<br/>
+<span>SAN Doc
+作为文档工程师参与了SAN Doc编写</span>
+</div>
+</body>
+</html>
+```
+
+style_1.css
+```css
+span{
+    display:block;
+	white-space: pre;
+}
+```
+
+style_2.css
+```css
+#box {
+	color:white;
+	background-color:#3399FF;
+	padding:25px 30px 30% 30px;
+	margin:5px 15px 0 10px;
+	float:left;
+}
+span {
+    display:block;
+	white-space: pre;
+}
+```
+
+style_3.css
+```css
+#box {
+	color:white;
+	background-color:#585858;
+	padding:10px 0 10px 50px;
+}
+.zuo {
+	background-color:#B8B8B8;
+	padding:30px;   
+	float:left;
+}
+.you {
+	background-color:white;
+	height:122px;
+	border:1px solid #B8B8B8;
+	
+}
+span{
+	padding-left:10px;
+}
+.pre{
+    white-space: pre;
+}
+```
