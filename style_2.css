@@ -1,0 +1,13 @@
+```css
+#box {
+	color:white;
+	background-color:#3399FF;
+	padding:25px 30px 30% 30px;
+	margin:5px 15px 0 10px;
+	float:left;
+}
+span {
+  display:block;
+	white-space: pre;
+}
+```
